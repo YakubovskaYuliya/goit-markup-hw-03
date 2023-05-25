@@ -34,6 +34,16 @@ img {
     margin: -1px;
 }
 
+
+.container {
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1158px;
+}
+
 .list {
     list-style: none;
 }
@@ -44,6 +54,15 @@ img {
 
 /* Header */
 
+.header-nav {
+    border-bottom: 1px solid var(--filter-border-color);
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+}
+
 .header-logo {
     color: var(--title-text-color);
     color: var(--accent-color);
@@ -52,14 +71,34 @@ img {
     font-size: 18px;
 }
 
+.header-logo {
+    margin-right: 76px;
+}
+
 .header-logo-accent {
     color: var(--accent-color);
     color: var(--title-text-color);
 }
 
+.site-nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.site-nav-link {
+    padding: 24px 0;
+
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
+
+}
 
 img {
     color: var(--button-second-color);
+    display: block;
 }
 
 .site-nav-link.current {
@@ -71,10 +110,57 @@ img {
     font-style: normal;
 }
 
+.contacts {
+    display: flex;
+    gap: 40px;
+}
+
+/* Hero section */
+
+.hero {
+    padding: 188px 0;
+}
+
+.hero-title {
+    max-width: 496px;
+}
+
+.button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 /* About Section */
 
+.advantages {
+    padding: 120px 0;
+}
 
+.visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin-bottom: 8px;
+    padding: 0;
+    border: 0;
+}
 
+.about-list-list {
+    display: flex;
+    gap: 24px;
+}
+
+.list-about {
+    width: calc((100% - 72px) / 4);
+
+}
 
 .about-title {
     color: var(--title-text-color);
@@ -86,12 +172,77 @@ img {
 
 }
 
+/*/ About section  */
+
+/* What are we doing section */
+.gallery {
+    padding-bottom: 120px;
+}
+
+.gallery-title {
+    margin-bottom: 72px;
+}
+
+
+.gallery-list-list {
+    display: flex;
+    gap: 24px;
+}
+
+
+.mobile-image {
+    calc((100% - 48px) / 3);
+}
+
+/* /What are we doing section */
+
+/* Team Section */
+.team {
+    padding: 120px 0;
+}
+
+.team-title {
+    margin-bottom: 72px;
+}
+
+.team-list-list {
+    display: flex;
+    gap: 24px;
+}
+
+.team-item {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.name-position {
+    padding: 32px 16px;
+}
+
+.team-subtitle {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.team-rank {
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+/* /Team Section */
+
 /* Footer */
 
 .footer-main {
     background-color: var(--title-text-color);
+    padding: 100px 0;
 }
 
+.header-logo-link {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 
 .card-title {
     font-weight: 500;
@@ -107,4 +258,110 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.footer-info {
+    max-width: 264px;
+}
+
+/* /Footer */
+
+
+/* PORTFOLIO */
+
+/* Hero*/
+.header-page {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.container-nav {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.portfolio {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-link {
+    margin-right: 76px;
+}
+
+.header-logo-accent {
+    margin-right: 76px;
+}
+
+.site-nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.site-nav-link {
+    padding: 24px 0;
+}
+
+.contacts {
+    display: flex;
+    gap: 40px;
+}
+
+/* /Hero */
+
+/* Filter */
+.menu-items {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.filters-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+
+}
+
+.filter-btn {
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    background-color: #404BBF;
+    color: #E7E9FC;
+    border-radius: 4px;
+}
+
+.filter-btn:hover {
+    background-color: #E7E9FC;
+    color: #404BBF;
+    border: 1px solid transparent;
+}
+
+.filter-btn:focus {
+    background-color: #404BBF;
+    color: #E7E9FC;
+    border: 1px solid transparent;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-item {
+    width: calc((100% - 48px) / 3);
+}
+
+.name-сategory {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.card-title {
+    margin-bottom: 8px;
 }
