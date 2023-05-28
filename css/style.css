@@ -34,9 +34,9 @@ img {
     margin: -1px;
 }
 
-
+/* Hero */
 .container {
-
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -52,11 +52,19 @@ img {
     text-decoration: none;
 }
 
+.hero-title {
+    max-width: 496px;
+}
+
 /* Header */
 
 .header-nav {
     border-bottom: 1px solid var(--filter-border-color);
+
 }
+
+
+
 
 .page-header {
     display: flex;
@@ -127,13 +135,17 @@ img {
 
 .button {
     display: block;
+    margin: center;
     min-width: 169px;
     height: 56px;
     border: none;
     background-color: #4d5ae5;
     border-radius: 4px;
     cursor: pointer;
+
 }
+
+
 
 /* About Section */
 
@@ -179,6 +191,8 @@ img {
     padding-bottom: 120px;
 }
 
+
+
 .gallery-title {
     margin-bottom: 72px;
 }
@@ -192,7 +206,10 @@ img {
 
 .mobile-image {
     calc((100% - 48px) / 3);
+
 }
+
+
 
 /* /What are we doing section */
 
@@ -201,7 +218,19 @@ img {
     padding: 120px 0;
 }
 
-.team-title {
+
+.container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1158px;
+}
+
+
+
+.team-title-common-title {
     margin-bottom: 72px;
 }
 
@@ -226,7 +255,7 @@ img {
 
 .team-rank {
     text-align: center;
-    margin-bottom: 8px;
+
 
 }
 
@@ -237,6 +266,15 @@ img {
 .footer-main {
     background-color: var(--title-text-color);
     padding: 100px 0;
+}
+
+.container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1158px;
 }
 
 .header-logo-link {
@@ -281,6 +319,7 @@ img {
     padding: 0 15px;
 
 }
+
 
 .portfolio {
     display: flex;
