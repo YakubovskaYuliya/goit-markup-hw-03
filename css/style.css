@@ -25,7 +25,6 @@ img {
 
 /* Hero */
 .container {
-    display: flex;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -80,6 +79,8 @@ img {
 .site-nav-list {
     display: flex;
     gap: 40px;
+    margin: 0;
+    margin-bottom: 0;
 }
 
 .site-nav-link {
@@ -90,7 +91,8 @@ img {
 .contacts-list {
     display: flex;
     gap: 40px;
-
+    margin: 0;
+    margin-bottom: 0;
 }
 
 img {
@@ -143,11 +145,10 @@ img {
 }
 
 .container {
-    display: flex;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0 15px;
+    padding-right: 0 15px;
     width: 1158px;
 }
 
@@ -165,10 +166,11 @@ img {
     overflow: hidden;
 }
 
-
 .about-list-list {
     display: flex;
     gap: 24px;
+    margin: 0;
+    margin-bottom: 0;
 }
 
 .list-about {
@@ -204,6 +206,8 @@ img {
 .gallery-list-list {
     display: flex;
     gap: 24px;
+    margin: 0;
+    margin-bottom: 0;
 }
 
 
@@ -227,7 +231,6 @@ img {
 
 
 .container {
-    display: flex;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -244,6 +247,8 @@ img {
 .team-list-list {
     display: flex;
     gap: 24px;
+    margin: 0;
+    margin-bottom: 0;
 }
 
 .team-item {
@@ -276,7 +281,6 @@ img {
 }
 
 .container {
-    display: flex;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -320,7 +324,7 @@ img {
 }
 
 .container {
-    display: flex;
+
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -366,15 +370,19 @@ img {
 .site-nav-list {
     display: flex;
     gap: 40px;
+    margin: 0;
+    margin-bottom: 0;
 }
 
 .site-nav-link {
     padding: 24px 0;
 }
 
-.contacts {
+.contacts-list {
     display: flex;
     gap: 40px;
+    margin: 0;
+    margin-bottom: 0;
 }
 
 /* /Hero */
@@ -386,7 +394,6 @@ img {
 }
 
 .container {
-    display: flex;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -412,8 +419,8 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-bottom: 72px;
-
+    margin: 0;
+    margin-bottom: 0;
 }
 
 .filter-btn {
@@ -441,10 +448,14 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    width: calc((100% - 48px) / 3);
+    margin: 0;
+    margin-bottom: 0;
 }
 
 .portfolio-item {
     width: calc((100% - 48px) / 3);
+
 }
 
 .name-сategory {
