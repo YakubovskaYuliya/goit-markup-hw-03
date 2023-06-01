@@ -25,6 +25,7 @@ img {
 
 /* Hero */
 .container {
+
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -52,12 +53,17 @@ img {
 
 
 .header-nav {
+    width: 1440px;
+    height: 72px;
     border-bottom: 1px solid var(--filter-border-color);
+    text-align: center;
+    letter-spacing: 0.02em;
 
 }
 
 .header-nav> :first-child {
     display: flex;
+
 }
 
 .page-header {
@@ -95,11 +101,15 @@ img {
 
 }
 
+
+
 .contacts-list {
     display: flex;
     gap: 40px;
-    margin: 0;
+    margin: -10px;
     margin-bottom: 0;
+
+
 }
 
 img {
@@ -114,12 +124,16 @@ img {
 
 .main-address {
     font-style: normal;
+
 }
 
 .contacts {
     display: flex;
     gap: 40px;
+
 }
+
+.site-adress {}
 
 /* Hero section */
 
