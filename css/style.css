@@ -129,6 +129,7 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     width: 1158px;
+    text-align: center;
 
 
 }
@@ -140,17 +141,28 @@ img {
     background-color: var(--title-text-color);
     text-align: center;
 
+
 }
 
 .hero-title {
     max-width: 496px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+
 
 
 }
 
 .button {
     display: block;
-    margin: center;
+    margin: 0 auto;
     min-width: 169px;
     height: 56px;
     border: none;
